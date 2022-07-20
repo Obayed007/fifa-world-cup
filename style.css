@@ -109,6 +109,12 @@ button:hover {
     font-weight: 700;
 }
 
+.web-link {
+    text-decoration: none;
+    color: #161616;
+
+}
+
 .indiv-button.blog {
     background-color: #DD0000;
     color: white;
