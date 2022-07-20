@@ -21,6 +21,11 @@ body {
     top: 50px;
 }
 
+.top-main:hover {
+    background-color: rgb(150, 135, 4);
+    cursor: pointer;
+}
+
 .top-header {
     color: white;
     font-weight: 600;
@@ -52,6 +57,10 @@ button {
     text-align: center;
 }
 
+button:hover {
+    background-color: rgb(5, 7, 172);
+}
+
 .button p {
     width: 103px;
     height: 23px;
@@ -68,6 +77,10 @@ button {
     top: 83px;
     margin-bottom: -582px;
     padding-right: 50px;
+}
+
+.top-banner:hover {
+    transform: rotate(20deg);
 }
 
 .button-tab {
