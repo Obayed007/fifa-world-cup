@@ -12,12 +12,11 @@ body {
     margin-right: 139px;
     margin-top: 50px;
     padding-left: 106px;
-    padding-top: 111px;
     padding-bottom: none;
     border-radius: 30px;
     margin-bottom: 130px;
     width: 1000px;
-    height: 700px;
+    height: 600px;
     left: 140px;
     top: 50px;
 }
@@ -25,8 +24,9 @@ body {
 .top-header {
     color: white;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 80px;
+    margin-bottom: -30px;
 }
 
 .top-paragraph {
@@ -58,11 +58,17 @@ button {
 
 }
 
+.top-info {
+    padding-top: 30px;
+}
+
 .top-banner img {
-    width: 581px;
-    height: 613px;
+    width: 530px;
+    height: 580px;
     left: 801px;
     top: 83px;
+    margin-bottom: -582px;
+    padding-right: 50px;
 }
 
 .button-tab {
@@ -77,6 +83,7 @@ button {
     top: 500px;
     margin-left: 140px;
     border-radius: 10px;
+    padding-top: 15px;
 }
 
 .indiv-button {
