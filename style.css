@@ -84,6 +84,8 @@ button {
     margin-left: 140px;
     border-radius: 10px;
     padding-top: 15px;
+    position: sticky;
+    top: 20px;
 }
 
 .indiv-button {
@@ -176,6 +178,29 @@ hr {
     color: white;
 }
 
+/* Social Media Handle */
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DD0000;
+
+}
+
+.icon {
+    padding-left: 50px;
+    font-size: 2em;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+    color: #DD0000;
+}
+
+
 /*----------------------------
         Media Queries 
 ------------------------------*/
@@ -183,10 +208,60 @@ hr {
 /* Mobile Devices */
 
 @media only screen and (max-width:688px) {
+    .top-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .top-main {
-        flex-direction: row;
-        width: 100%;
-        height: 100vh;
+        width: 620px;
+        height: 1133px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .top-banner img {
+        padding-top: 10px;
+    }
+
+    .blog-parent {
+        display: inline;
 
     }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+}
+
+/* Tablet Devices */
+
+@media only screen and (min-width: 689px) and (max-width:992px) {
+    .side-tab .button-tab {
+        flex-direction: row;
+        background: none;
+        margin: auto;
+        width: 600px;
+        position: static;
+        margin-top: 0px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
 }

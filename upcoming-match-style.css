@@ -83,6 +83,8 @@ button {
     margin-left: 140px;
     border-radius: 10px;
     padding-top: 15px;
+    position: sticky;
+    top: 20px;
 }
 
 .indiv-button {
@@ -187,6 +189,28 @@ hr {
 .footer-menu p {
     margin-left: 30px;
     color: white;
+}
+
+/* Social Media Handle */
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DD0000;
+
+}
+
+.icon {
+    padding-left: 50px;
+    font-size: 2em;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+    color: #DD0000;
 }
 
 /*----------------------------
