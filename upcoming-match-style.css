@@ -222,8 +222,27 @@ hr {
 @media only screen and (max-width:688px) {
     .top-main {
         flex-direction: row;
-        width: 100%;
-        height: 100vh;
-
     }
+
+    .schedule-all {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    /* Tables Devices */
+
+    @media only screen and (min-width: 689px) and (max-width: 992px) {
+
+        .schedule-all {
+            grid-template-columns: repeat(3, 2fr);
+        }
+
+        .footer-menu {
+            flex-direction: column;
+        }
+    }
+
 }
